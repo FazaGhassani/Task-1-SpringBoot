@@ -6046,3 +6046,26 @@ java.sql.SQLIntegrityConstraintViolationException: Column 'pregnantmother_id' ca
 2022-10-28 19:15:42.859  INFO 25272 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-10-28 19:15:42.860  INFO 25272 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2022-10-28 19:15:42.861  INFO 25272 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-10-28 19:28:50.797  INFO 15140 --- [main] com.task.stunting.StuntingApplication    : Starting StuntingApplication using Java 17.0.4.1 on P090WFA067650 with PID 15140 (D:\Training\angular springboot\Task\Task - Stunting Springboot\stunting\Task-1-SpringBoot\target\classes started by U067650 in D:\Training\angular springboot\Task\Task - Stunting Springboot\stunting\Task-1-SpringBoot)
+2022-10-28 19:28:50.801  INFO 15140 --- [main] com.task.stunting.StuntingApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-10-28 19:28:51.352  INFO 15140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-28 19:28:51.404  INFO 15140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2022-10-28 19:28:51.817  INFO 15140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-28 19:28:51.824  INFO 15140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-28 19:28:51.824  INFO 15140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 19:28:51.952  INFO 15140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-28 19:28:51.953  INFO 15140 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1100 ms
+2022-10-28 19:28:52.078  INFO 15140 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-28 19:28:52.214  INFO 15140 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-28 19:28:52.258  INFO 15140 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-28 19:28:52.296  INFO 15140 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-10-28 19:28:52.412  INFO 15140 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-28 19:28:52.501  INFO 15140 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-10-28 19:28:52.941  INFO 15140 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-28 19:28:52.949  INFO 15140 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-28 19:28:53.251  WARN 15140 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-28 19:28:53.546  INFO 15140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-28 19:28:53.555  INFO 15140 --- [main] com.task.stunting.StuntingApplication    : Started StuntingApplication in 3.14 seconds (JVM running for 4.324)
+2022-10-28 19:28:58.177  INFO 15140 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 19:28:58.177  INFO 15140 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-28 19:28:58.178  INFO 15140 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
